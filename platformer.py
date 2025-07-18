@@ -146,7 +146,7 @@ class Stage:
     def __init__(self, platforms_group):
         super().__init__()
         self.platforms = platforms_group # Store the sprite group passed in
-        self.number = 2
+        self.number = 1
 
     def create_stage(self):
         # Clear existing platforms before creating a new stage
